@@ -11,8 +11,8 @@ class Main {
     int value2 = myObj.nextInt();
 
     // Output input by user
-    System.out.println("First Number a: " + value1);
-    System.out.println("Second Number b: " + value2);
+    System.out.println("First Number a = " + value1);
+    System.out.println("Second Number b = " + value2);
 
     // addition operator
     System.out.println("a + b = " + (value1 + value2));
@@ -22,8 +22,6 @@ class Main {
     System.out.println("a * b = " + (value1 * value2));
     // division operator
     System.out.println("a / b = " + (value1 / value2));
-    // modulo operator
-    System.out.println("a % b = " + (value1 % value2));
 
 
   }
