@@ -4,7 +4,7 @@ class Main {
   public static void main(String[] args) {
     Scanner myObj = new Scanner(System.in);
 
-    System.out.println("Enter two values");
+    System.out.println("Enter two values:");
 
     // Numerical input
     int value1 = myObj.nextInt();
