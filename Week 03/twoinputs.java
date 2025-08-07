@@ -11,19 +11,19 @@ class Main {
     double value2 = myObj.nextDouble();
 
     // Output input by user
-    System.out.println("First Number: " + value1);
-    System.out.println("Second Number: " + value2);
+    System.out.println("First Number a: " + value1);
+    System.out.println("Second Number b: " + value2);
 
     // addition operator
-    System.out.println("a + b = " + (a + b));
+    System.out.println("a + b = " + (value1 + value2));
     // subtraction operator
-    System.out.println("a - b = " + (a - b));
+    System.out.println("a - b = " + (value1 - value2));
     // multiplication operator
-    System.out.println("a * b = " + (a * b));
+    System.out.println("a * b = " + (value1 * value2));
     // division operator
-    System.out.println("a / b = " + (a / b));
+    System.out.println("a / b = " + (value1 / value2));
     // modulo operator
-    System.out.println("a % b = " + (a % b));
+    System.out.println("a % b = " + (value1 % value2));
 
 
   }
