@@ -8,7 +8,7 @@ class Main {
 
     // Numerical input
     int value1 = myObj.nextInt();
-    double value2 = myObj.nextDouble();
+    int value2 = myObj.nextInt();
 
     // Output input by user
     System.out.println("First Number a: " + value1);
