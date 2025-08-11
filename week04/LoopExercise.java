@@ -7,17 +7,17 @@ class LoopExercise {
     System.out.println("Enter two values:");
 
     // Numerical input
-    int value1 = myObj.nextInt();
-    int value2 = myObj.nextInt();
+    int n = myObj.nextInt();
+    int i = myObj.nextInt();
 
     // Output input by user
-    System.out.println("First Number a = " + value1);
-    System.out.println("Second Number b = " + value2);
+    System.out.println("First Number a = " + n);
+    System.out.println("Second Number b = " + i);
 
-    int n = 5;
     // for loop  
-    for (int i = 1; i <= n; ++i) {
+    for (int m = i; i <= n; ++i) {
       System.out.println("Java is fun"+" from: "+i+ " to: "+n);
 
-  }
+        }
+    }
 }
