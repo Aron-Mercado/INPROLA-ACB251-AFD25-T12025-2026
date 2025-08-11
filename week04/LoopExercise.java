@@ -19,7 +19,7 @@ class LoopExercise {
 
     // for loop  
 
-    if (z <= 0);{
+    if (z <= 0) {
         for (int m = i; i <= n; ++i) {
     
 
