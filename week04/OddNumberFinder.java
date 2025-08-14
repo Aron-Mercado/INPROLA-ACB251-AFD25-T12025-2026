@@ -11,6 +11,8 @@ public class OddNumberFinder {
      * @param start The starting number of the range.
      * @param end The ending number of the range.
      */
+
+    //Initialization, Conditional, Increment, Statement
     public void findAndDisplayOdd(int start, int end) {
         System.out.println("\nOdd numbers in the range " + start + " to " + end + " are:");
  
@@ -25,6 +27,8 @@ public class OddNumberFinder {
         }
     }
 
+
+        //Initialization, Conditional, Statement, Increment
         public void findAndDisplayOdd2(int start, int end) {
         System.out.println("\nOdd numbers in the range " + start + " to " + end + " are:");
  
@@ -41,6 +45,8 @@ public class OddNumberFinder {
       }
     }
 
+
+    //Initialization, Statement, Increment, Conditional
     public void findAndDisplayOdd3(int start, int end) {
         System.out.println("\nOdd numbers in the range " + start + " to " + end + " are:");
  
