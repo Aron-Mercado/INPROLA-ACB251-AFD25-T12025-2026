@@ -1,7 +1,5 @@
 import java.util.Scanner;
  
-
- 
 /**
 * LopExercise.java
 * This is the "caller" class. It handles the user interface, reads input,
@@ -26,9 +24,9 @@ public class LoopExercise {
         OddNumberFinder finder = new OddNumberFinder();
  
         // Call the method in the worker class to find and display the numbers
-        finder.findAndDisplayEvens(startPoint, endPoint);
+        finder.findAndDisplayOdd(startPoint, endPoint);
         
         // It's good practice to close the scanner to prevent resource leaks
         inputScanner.close();
     }
- 
+}
