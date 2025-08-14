@@ -23,6 +23,7 @@ public class OddNumberFinder {
             if (i % 2 != 0) {
                 // If the number is even, print it to the console
                 System.out.println(i);
+                findAndDisplayPrimeNumber(i, i);
             }
         }
     }
@@ -46,9 +47,9 @@ public class OddNumberFinder {
     }
 
 
-    //Initialization, Statement, Increment, Conditional
-    public void findAndDisplayOdd3(int start, int end) {
-        System.out.println("\nOdd numbers in the range " + start + " to " + end + " are:");
+      //Initialization, Statement, Increment, Conditional
+       public void findAndDisplayOdd3(int start, int end) {
+         System.out.println("\nOdd numbers in the range " + start + " to " + end + " are:");
  
         // Use a do loop to iterate from the start point to the end point
         int i = start;
@@ -62,4 +63,10 @@ public class OddNumberFinder {
     while (i <= end); { 
       }
     }
+
+
+
+
+
+
 }
