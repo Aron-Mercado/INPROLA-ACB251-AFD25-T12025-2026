@@ -1,37 +1,34 @@
 import java.util.Scanner;
+ 
 
-class LoopExercise {
-  public static void main(String[] args) {
-    Scanner myObj = new Scanner(System.in);
-
-    System.out.println("Enter two values:");
-
-
-    // Numerical input
-    int i = myObj.nextInt();
-    int n = myObj.nextInt();
-
-    double z = (n % 2);
-
-    // Output input by user
-    System.out.println("First Number a = " + i);
-    System.out.println("Second Number b = " + n);
-
-    // for loop  
-
-    if (z <= 0) {
-        for (int m = i; i <= n; ++i) {
-    
-
-         System.out.println("Java is fun"+" from: "+i+ " to: "+n);
-
-        }
+ 
+/**
+* LopExercise.java
+* This is the "caller" class. It handles the user interface, reads input,
+* and then calls the EvenNumberFinder class to perform the main task.
+*/
+public class LoopExercise {
+ 
+    public static void main(String[] args) {
+ 
+        // Create a Scanner object to read user input from the console
+        Scanner inputScanner = new Scanner(System.in);
+ 
+        // Prompt the user for the starting number
+        System.out.print("Enter the starting number: ");
+        int startPoint = inputScanner.nextInt();
+ 
+        // Prompt the user for the ending number
+        System.out.print("Enter the ending number: ");
+        int endPoint = inputScanner.nextInt();
+ 
+        // Create an instance of our "worker" class
+        OddNumberFinder finder = new OddNumberFinder();
+ 
+        // Call the method in the worker class to find and display the numbers
+        finder.findAndDisplayEvens(startPoint, endPoint);
+        
+        // It's good practice to close the scanner to prevent resource leaks
+        inputScanner.close();
     }
-    else {
-
-        System.out.println("Error");
-
-            }
-    }
-}
-
+ 

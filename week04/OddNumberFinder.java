@@ -6,7 +6,6 @@
 */
 public class OddNumberFinder {
 
- public static void main(String[] args)
     /**
      * Iterates through a specified range and prints all even numbers.
      * @param start The starting number of the range.
