@@ -23,7 +23,7 @@ public class OddNumberFinder {
             if (i % 2 != 0) {
                 // If the number is even, print it to the console
                 System.out.println(i);
-                findAndDisplayPrimeNumber(i, i);
+                findAndDisplayPrimeNumber(i);
             }
         }
     }
@@ -66,7 +66,23 @@ public class OddNumberFinder {
 
 
 
+ public void findAndDisplayPrimeNumber(int start, int end);
+ for (int x = start; x <= end; x++) {
+      count = 0;  // Reset counter for each 'i'
 
+      // Check for divisibility from 2 up to i/2
+      for (int j = 2; j <= x / 2; j++) {
+        if (x % j == 0) {
+          count++;  // Increment if 'i' is divisible by 'j'
+          break;  // Exit loop if a divisor is found
+        }
+      }
+
+      // If the count is 0, 'i' is prime
+      if (count == 0) {
+        System.out.println(x);  // Output the prime number
+      }
+    }
 
 
 }
