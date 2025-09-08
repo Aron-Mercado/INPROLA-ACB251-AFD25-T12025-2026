@@ -13,34 +13,34 @@ public class Midterms2 {
        int end = 100;
        System.out.println("Numbers range is: " + start + " to " + end);
  
+		//Looping of checking numbers 1 to 100//
         for (int i = 1; i <= end; i++) {
+
+			//even checker
             if (i % 2 == 0) {
+				//divisible by 3 checker
                 if (i % 3 ==0) {
 					System.out.println(i + " is divisible by 3");
-									}
+				//not divisible, display number
 				else {
 					System.out.println(i);
 									}
 			}
 
+			//odd else
 	   		else {
+				//check if odd is divisable by 5
 				if (i % 5 ==0) {
 					System.out.println(i + " is divisible by 5");
 									}
+				//odd is not divisable by 5
 				else {
-					System.out.println(i + " odd number not divisable by 5");
+					System.out.println(i + " odd number not divisible by 5");
 
 									}
 		
 			
             }
         }
-}
-
-
-
-
-
-
-
+	}
 }
