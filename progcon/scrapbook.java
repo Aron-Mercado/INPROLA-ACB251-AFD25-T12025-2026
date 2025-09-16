@@ -76,5 +76,7 @@ public class scrapbook {
         System.out.println("!! " + month + "/" + day + "/" + year + " !!");
         System.out.println("---------------");
         System.out.println("***************");
+
+        input.close();
     }
 }
