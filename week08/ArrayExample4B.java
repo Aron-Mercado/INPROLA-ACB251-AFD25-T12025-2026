@@ -6,13 +6,13 @@ public class ArrayExample4B {
 
         //
         Scanner input = new Scanner(System.in);
-        System.out.println("Enter the range of scores: ");
+        System.out.println("Enter the range of Scores: ");
         int size = input.nextInt();
 
         // Declare and initialize an array of integers
         int[] scores = new int[size];
         
-        System.out.print("Enter Scores: ");
+        System.out.println("Enter Scores: ");
         for (int i = 0; i < size; i++) {
             scores[i] = input.nextInt();
         }
