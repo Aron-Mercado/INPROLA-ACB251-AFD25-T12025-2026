@@ -4,12 +4,12 @@ import java.util.Scanner;
 public class ArrayExample4B {
     public static void main(String[] args) {
 
-        //
+        //Create Scannerand Initialize
         Scanner input = new Scanner(System.in);
         System.out.println("Enter the range of Scores: ");
         int size = input.nextInt();
 
-        // Declare and initialize an array of integers
+        //Declare and initialize user-input desired arrays
         int[] scores = new int[size];
         
         System.out.println("Enter Scores: ");
