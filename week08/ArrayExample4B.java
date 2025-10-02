@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class ArrayExample4B {
     public static void main(String[] args) {
 
-        //Create Scannerand Initialize
+        //Create Scanner and Initialize
         Scanner input = new Scanner(System.in);
         System.out.println("Enter the range of Scores: ");
         int size = input.nextInt();
