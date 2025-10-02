@@ -6,13 +6,11 @@ public class Person {
     private int age = 18;
     private String gender = "female";
 
-} 
-
 public void setName(String s) {
     name = s;
 }
 
-public void getName() {
+public String getName() {
     return name;
 }
 
@@ -32,3 +30,4 @@ public String getGender() {
     return gender;
 }
 
+}
