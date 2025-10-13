@@ -35,13 +35,13 @@ public class Calculator1 implements SampleCalculator {
         Scanner input2 = new Scanner(System.in);
         
         System.out.println("Please Input First Value to be Added: ");
-        int sum = input.nextInt();
+        calc.sum = input.nextInt();
         System.out.println("Please Input First Value to be Subtracted: ");
-        int difference = input.nextInt();
+        calc.difference = input.nextInt();
         System.out.println("Please Input First Value to be Multiplied: ");
-        int product = input.nextInt();
+        calc.product = input.nextInt();
         System.out.println("Please Input First Value to be Divided: ");
-        int quotient = input.nextInt();
+        calc.quotient = input.nextInt();
         
 
 
