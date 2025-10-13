@@ -1,13 +1,17 @@
 import java.util.Scanner;
 public class Calculator1 implements SampleCalculator {
 
-    Scanner input = new Scanner(System.in);
-    System.out.println("Please input integer to be added: ");
-
+    private int sum;
+    private int difference;
+    private int product;
+    private int quotient;
+    /*
     private int sum=input.nextInt();
     private int difference=input.nextInt();
     private int product=input.nextInt();
     private int quotient=input.nextInt();
+    */
+
     public void add(int i) {
 
         sum += i;
@@ -27,7 +31,19 @@ public class Calculator1 implements SampleCalculator {
 
     public static void main(String args[]) {
         Calculator1 calc = new Calculator1();
+        Scanner input = new Scanner(System.in);
         Scanner input2 = new Scanner(System.in);
+        
+        System.out.println("Please Input First Value to be Added: ");
+        int sum = input.nextInt();
+        System.out.println("Please Input First Value to be Subtracted: ");
+        int difference = input.nextInt();
+        System.out.println("Please Input First Value to be Multiplied: ");
+        int product = input.nextInt();
+        System.out.println("Please Input First Value to be Divided: ");
+        int quotient = input.nextInt();
+        
+
 
         System.out.println("Please Input Second Value to be Added: ");
         int add2 = input2.nextInt();
