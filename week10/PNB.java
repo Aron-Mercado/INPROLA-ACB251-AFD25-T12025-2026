@@ -1,4 +1,4 @@
-public class PNG extends Bank {
+public class PNB extends Bank {
 
     private int balance;
     public void setBalance(int i) {
