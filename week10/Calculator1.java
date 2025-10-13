@@ -66,6 +66,8 @@ public class Calculator1 implements SampleCalculator {
         calc.divide(div2);
         System.out.println("Divide result: " + calc.quotient);
 
+        input.close();
+        input2.close();
 
     }
 
