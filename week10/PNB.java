@@ -19,9 +19,22 @@ public class PNB extends Bank {
         System.out.println("Current balance is: " + getBalance());
     }
     public void withdraw(int i) {
+        /*
         balance-=i;
         balance-=this.transactionCharge;
         System.out.println("Withdraw value is: " + i);
         System.out.println("Current balance is: " + getBalance());
+        */ 
+
+        if (i <= balance) {
+                balance-=i;
+                balance-=this.transactionCharge;
+                System.out.println("Withdraw value is: " + i);
+                System.out.println("Current balance is: " + getBalance());
+            } else {
+                balance-=this.transactionCharge;
+                System.out.println("Insufficient funds in account. Current balance: " + getBalance());
+
     }
+  }
 }
