@@ -9,6 +9,7 @@ implements keyword in your class declaration
 
 */
 
+//All methods inside interface are abstract
 interface SampleCalculator {
 
     public void add(int i);

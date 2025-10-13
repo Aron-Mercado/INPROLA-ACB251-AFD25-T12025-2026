@@ -1,4 +1,4 @@
-public class Calculator implements SampleCalculator {
+public class Calculator1 implements SampleCalculator {
 
     private int sum=0;
     private int difference=0;
