@@ -11,7 +11,7 @@ public class Instructor extends Person {
         System.out.println("Enter a name: ");
         String name = input.nextLine();
         instructor.setName(name);
-        System.out.println("Name of student is: " +  Instructor.getName());
+        System.out.println("Name of instructor is: " +  instructor.getName());
 
 
 
@@ -19,7 +19,10 @@ public class Instructor extends Person {
 
     public void setName(String s) {
 
-            this.setName(s);
+            //Overides "setName" in parent class
+            //a.k.a Overriding method 
+            //super.setName(s);
+            //System.out.println("This is an overrding method.");
 
     }
 
