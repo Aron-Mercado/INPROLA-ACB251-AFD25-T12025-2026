@@ -1,3 +1,4 @@
+/*
 public class Calculator implements SampleCalculator {
 
     private int sum=0;
@@ -39,3 +40,5 @@ public class Calculator implements SampleCalculator {
     }
 
 }
+
+*/
