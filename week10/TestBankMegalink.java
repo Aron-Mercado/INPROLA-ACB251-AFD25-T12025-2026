@@ -1,3 +1,4 @@
+/*
 public class TestBankMegalink {
     public static void main(String[] args) {
         
@@ -9,3 +10,5 @@ public class TestBankMegalink {
         pnb.withdraw(1000);
     }
 }
+
+*/
