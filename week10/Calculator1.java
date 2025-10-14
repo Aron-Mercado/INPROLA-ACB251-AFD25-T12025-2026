@@ -34,6 +34,7 @@ public class Calculator1 implements SampleCalculator {
         Scanner input = new Scanner(System.in);
         Scanner input2 = new Scanner(System.in);
         
+        //calc.(insert here) <- this is a method of Calc
         System.out.println("Please Input First Value to be Added: ");
         calc.sum = input.nextInt();
         System.out.println("Please Input First Value to be Subtracted: ");
